@@ -6,14 +6,8 @@ lighttpd doesnt work with .htaccess files, so you will need to rewrite rules to 
 below are are links to relevant guides
 
 task is:
-1. rewrite the general htaccess rules - look for "THESE NEED TO BE REWRITTEN"
-2. I found all htaccess files on my server and we need to "translate them" to lighttpd too
 
+1. rewrite the general htaccess rules - look for "THESE NEED TO BE REWRITTEN" - here is guide (look for paragraph with headline "Rewriting Rules") https://www.packtpub.com/books/content/migration-apache-lighttpd - more info: http://redmine.lighttpd.net/projects/1/wiki/migratingfromapache
 
+2. I found all htaccess files on my server and we need to "translate them" to lighttpd too. I found this guide - i think its helpfull - http://redmine.lighttpd.net/projects/1/wiki/Docs_ModAccess
 
-guide (look for paragraph with headline "Rewriting Rules")
-https://www.packtpub.com/books/content/migration-apache-lighttpd
-
-
-more info
-http://redmine.lighttpd.net/projects/1/wiki/migratingfromapache
